@@ -117,7 +117,7 @@ FILE_FORMAT = (TYPE = PARQUET)
 HEADER = true;
 
 /*CREATE copy of TRIPS table for loading from parquet */
-creata or replace table trips_parquet like trips;
+create or replace table trips_parquet like trips;
 --OR complete table script
 create or replace table trips_parquet
 (tripduration integer,
